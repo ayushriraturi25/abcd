@@ -1,0 +1,1121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ayushree | B.Tech CSE (AI & ML) | National & Global Hackathons Winner</title>
+  <meta name="description" content="Portfolio of Ayushree - B.Tech CSE (AI & ML), National & Global Hackathon Winner, Systems & AI Engineer skilled in C, C++, Python, and Java.">
+
+  <!-- Favicon / Brand SVG -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/avatar.svg">
+
+  <!-- Google Fonts: Outfit (Display), Plus Jakarta Sans (Body), JetBrains Mono (Code) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="dark-theme">
+
+  <!-- Interactive Neural Particles Background Canvas -->
+  <canvas id="particles-canvas"></canvas>
+
+  <!-- Scroll Progress Indicator -->
+  <div id="scroll-progress"></div>
+
+  <!-- =========================================================================
+       NAVIGATION BAR
+       ========================================================================= -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-brand">
+        <div class="nav-logo-icon">A</div>
+        <span>Ayushree<span class="gradient-text">.ai</span></span>
+        <span class="brand-badge">
+          <span class="pulse-dot"></span> Available
+        </span>
+      </a>
+
+      <!-- Desktop Nav Menu -->
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#hackathons" class="nav-link">Hackathons</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#terminal" class="nav-link">CLI Terminal</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <!-- Action Buttons -->
+      <div class="nav-actions">
+        <!-- Theme Switcher -->
+        <button class="theme-toggle-btn" id="theme-toggle-btn" aria-label="Toggle Dark and Light theme" title="Toggle Theme">
+          <i class="fas fa-moon"></i>
+        </button>
+
+        <a href="#contact" class="btn btn-primary btn-sm">
+          <span>Let's Talk</span>
+          <i class="fas fa-arrow-right"></i>
+        </a>
+
+        <!-- Mobile Hamburger -->
+        <button class="hamburger" id="hamburger-btn" aria-label="Open menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- =======================================================================
+         HERO SECTION
+         ======================================================================= -->
+    <section class="hero-section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-tag">
+            <i class="fas fa-trophy sparkle"></i>
+            <span>B.Tech CSE (AI & ML) • Global & National Hackathons Winner</span>
+          </div>
+
+          <h3 class="hero-greeting">Hi there, I am</h3>
+          <h1 class="hero-name">Ayushree</h1>
+
+          <div class="hero-role-wrapper">
+            <span class="gradient-text" id="typing-roles">AI & ML Engineer</span>
+            <span class="typing-cursor"></span>
+          </div>
+
+          <p class="hero-description">
+            Passionate Computer Science Engineer specializing in <strong>Artificial Intelligence, Deep Learning & High-Performance Systems</strong>. Veteran hackathon champion who turns complex research into production-grade solutions using <strong>C, C++, Python, and Java</strong>.
+          </p>
+
+          <div class="hero-specialty-tags">
+            <div class="tech-pill"><i class="fa-solid fa-code"></i> C & C++20</div>
+            <div class="tech-pill"><i class="fa-brands fa-python"></i> Python 3</div>
+            <div class="tech-pill"><i class="fa-brands fa-java"></i> Java 21</div>
+            <div class="tech-pill"><i class="fa-solid fa-brain"></i> PyTorch & ViT</div>
+            <div class="tech-pill"><i class="fa-solid fa-network-wired"></i> Spring Boot</div>
+            <div class="tech-pill"><i class="fa-solid fa-microchip"></i> Jetson Edge AI</div>
+          </div>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              <i class="fas fa-layer-group"></i>
+              <span>Explore Projects</span>
+            </a>
+            <a href="#hackathons" class="btn btn-secondary">
+              <i class="fas fa-award" style="color: var(--gold);"></i>
+              <span>Hackathon Trophies</span>
+            </a>
+            <button class="btn btn-outline-cyan open-resume-btn">
+              <i class="fas fa-file-pdf"></i>
+              <span>Resume CV</span>
+            </button>
+          </div>
+
+          <div class="hero-socials">
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-link" title="GitHub Profile">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-link" title="LinkedIn Profile">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="mailto:ayushree.cse@gmail.com" class="social-link" title="Direct Email">
+              <i class="fas fa-envelope"></i>
+            </a>
+            <a href="#terminal" class="social-link" title="Interactive Terminal">
+              <i class="fas fa-terminal"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Hero Graphic Showcase -->
+        <div class="hero-visual">
+          <div class="hero-avatar-frame">
+            <div class="avatar-backdrop-glow"></div>
+            <div class="avatar-image-wrapper">
+              <img src="assets/images/avatar.svg" alt="Ayushree - AI & ML Engineer">
+            </div>
+
+            <!-- Floating Accolade Badges -->
+            <div class="floating-badge floating-badge-1">
+              <div class="badge-icon gold">
+                <i class="fas fa-trophy"></i>
+              </div>
+              <div class="badge-text">
+                <div class="badge-val">1st Place Champion</div>
+                <div class="badge-lbl">Global AI Hackathon 2025</div>
+              </div>
+            </div>
+
+            <div class="floating-badge floating-badge-2">
+              <div class="badge-icon cyan">
+                <i class="fas fa-brain"></i>
+              </div>
+              <div class="badge-text">
+                <div class="badge-val">99.2% Accuracy</div>
+                <div class="badge-lbl">Diagnostic Vision AI Model</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         STATS TICKER BANNER
+         ======================================================================= -->
+    <div class="stats-banner">
+      <div class="container stats-grid">
+        <div class="stat-item">
+          <div class="stat-icon">
+            <i class="fas fa-trophy" style="color: var(--gold);"></i>
+          </div>
+          <div class="stat-info">
+            <div class="stat-number" data-target="15" data-suffix="+">0</div>
+            <div class="stat-label">Hackathons Won (Global & National)</div>
+          </div>
+        </div>
+
+        <div class="stat-item">
+          <div class="stat-icon">
+            <i class="fas fa-diagram-project"></i>
+          </div>
+          <div class="stat-info">
+            <div class="stat-number" data-target="25" data-suffix="+">0</div>
+            <div class="stat-label">Engineered Systems & Repos</div>
+          </div>
+        </div>
+
+        <div class="stat-item">
+          <div class="stat-icon">
+            <i class="fas fa-bullseye"></i>
+          </div>
+          <div class="stat-info">
+            <div class="stat-number" data-target="99.2" data-suffix="%">0</div>
+            <div class="stat-label">Model Accuracy & Optimization</div>
+          </div>
+        </div>
+
+        <div class="stat-item">
+          <div class="stat-icon">
+            <i class="fas fa-code-commit"></i>
+          </div>
+          <div class="stat-info">
+            <div class="stat-number" data-target="10" data-suffix="k+">0</div>
+            <div class="stat-label">Production Code Commits</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- =======================================================================
+         ABOUT SECTION
+         ======================================================================= -->
+    <section class="about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag"><i class="fas fa-user-astronaut"></i> Background & Mindset</div>
+          <h2 class="section-title">Architecting at the Confluence of <span class="gradient-text">AI & Low-Latency Systems</span></h2>
+          <p class="section-subtitle">A multidisciplinary engineer driven by curiosity, mathematical rigor, and the thrill of 48-hour hackathon endurance.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              I am <strong>Ayushree</strong>, a B.Tech Computer Science and Engineering student specializing in <strong>Artificial Intelligence & Machine Learning</strong>. My journey is defined by high-intensity problem solving—from competing in global hackathons against thousands of international engineers to optimizing low-level algorithmic matching engines down to nanoseconds.
+            </p>
+            <p>
+              I bridge theoretical AI with robust systems software. While I train deep neural networks, computer vision transformers, and agentic LLMs in <strong>Python & PyTorch</strong>, I engineer high-throughput backends in <strong>C++ and Java 21</strong> where predictable memory layouts, lock-free concurrency, and millisecond latencies matter.
+            </p>
+
+            <div class="about-highlights">
+              <div class="highlight-box">
+                <h4><i class="fas fa-award"></i> Hackathon Mentality</h4>
+                <p>Proven track record of turning zero into an award-winning MVP in 48-hour high-pressure sprints.</p>
+              </div>
+
+              <div class="highlight-box">
+                <h4><i class="fas fa-bolt"></i> Polyglot Engineering</h4>
+                <p>Fluent across C, C++20, Python, and Java—choosing the optimal tool for each computing paradigm.</p>
+              </div>
+
+              <div class="highlight-box">
+                <h4><i class="fas fa-microchip"></i> Edge AI & Computer Vision</h4>
+                <p>Deep experience deploying quantized models on NVIDIA Jetson and real-time inference pipelines.</p>
+              </div>
+
+              <div class="highlight-box">
+                <h4><i class="fas fa-shield-halved"></i> Enterprise Architecture</h4>
+                <p>Building HIPAA-compliant, microservice-driven backends with Java Spring Boot, Kafka & Docker.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Code Card Visualizer -->
+          <div class="about-card-visual">
+            <div class="code-header">
+              <div class="code-dots">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+              </div>
+              <span class="code-title">ayushree_profile.cpp</span>
+              <span class="tech-tag" style="padding: 2px 8px; font-size: 0.72rem;">C++20</span>
+            </div>
+            <pre class="code-body"><code><span class="syn-comment">// Continuous Learning & Core Architecture</span>
+<span class="syn-keyword">#include</span> <span class="syn-str">&lt;iostream&gt;</span>
+<span class="syn-keyword">#include</span> <span class="syn-str">&lt;vector&gt;</span>
+<span class="syn-keyword">#include</span> <span class="syn-str">&lt;memory&gt;</span>
+
+<span class="syn-keyword">struct</span> <span class="syn-var">EngineerProfile</span> {
+  <span class="syn-var">std::string</span> name = <span class="syn-str">"Ayushree"</span>;
+  <span class="syn-var">std::string</span> degree = <span class="syn-str">"B.Tech CSE (AI &amp; ML)"</span>;
+  <span class="syn-var">std::vector</span>&lt;<span class="syn-var">std::string</span>&gt; languages = {
+    <span class="syn-str">"C"</span>, <span class="syn-str">"C++20"</span>, <span class="syn-str">"Python"</span>, <span class="syn-str">"Java 21"</span>
+  };
+  <span class="syn-keyword">bool</span> isNationalWinner = <span class="syn-num">true</span>;
+  <span class="syn-keyword">bool</span> isGlobalWinner = <span class="syn-num">true</span>;
+
+  <span class="syn-keyword">void</span> <span class="syn-fn">executeMission</span>() <span class="syn-keyword">const</span> {
+    <span class="syn-var">std::cout</span> &lt;&lt; <span class="syn-str">"Building AI systems that create tangible impact.\n"</span>;
+  }
+};</code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         SKILLS SECTION (INTERACTIVE MATRIX)
+         ======================================================================= -->
+    <section class="skills-section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag"><i class="fas fa-cubes"></i> Technical Competencies</div>
+          <h2 class="section-title">Comprehensive <span class="gradient-text">Skills Matrix</span></h2>
+          <p class="section-subtitle">Deep proficiency in core programming languages, artificial intelligence frameworks, low-level algorithms, and distributed backends.</p>
+        </div>
+
+        <!-- Filter Navigation -->
+        <div class="skills-filter-nav">
+          <button class="filter-btn active" data-skill-filter="all">All Skills</button>
+          <button class="filter-btn" data-skill-filter="lang">Core Languages</button>
+          <button class="filter-btn" data-skill-filter="aiml">AI & Machine Learning</button>
+          <button class="filter-btn" data-skill-filter="backend">Systems & Backend</button>
+          <button class="filter-btn" data-skill-filter="tools">Cloud & DevOps</button>
+        </div>
+
+        <!-- Skills Grid -->
+        <div class="skills-grid">
+          <!-- C / C++ -->
+          <div class="skill-card" data-category="lang">
+            <div class="skill-card-top">
+              <div class="skill-icon-wrap"><i class="fa-solid fa-code"></i></div>
+              <span class="skill-level-badge">95% Mastery</span>
+            </div>
+            <h3>C & C++20</h3>
+            <p>Modern C++20, STL, memory layout, lock-free data structures, pointer arithmetic, and algorithmic problem solving.</p>
+            <div class="skill-progress-bar-bg">
+              <div class="skill-progress-fill" style="width: 95%;"></div>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag-item">C++20</span>
+              <span class="skill-tag-item">Templates</span>
+              <span class="skill-tag-item">Memory Alloc</span>
+              <span class="skill-tag-item">SIMD</span>
+              <span class="skill-tag-item">DSA</span>
+            </div>
+          </div>
+
+          <!-- Python -->
+          <div class="skill-card" data-category="lang aiml">
+            <div class="skill-card-top">
+              <div class="skill-icon-wrap"><i class="fa-brands fa-python"></i></div>
+              <span class="skill-level-badge">98% Mastery</span>
+            </div>
+            <h3>Python 3</h3>
+            <p>Primary research and model training language. Scientific computing, automated pipelines, FastAPI, NumPy, Pandas, Scipy.</p>
+            <div class="skill-progress-bar-bg">
+              <div class="skill-progress-fill" style="width: 98%;"></div>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag-item">Python 3.12</span>
+              <span class="skill-tag-item">NumPy</span>
+              <span class="skill-tag-item">Pandas</span>
+              <span class="skill-tag-item">FastAPI</span>
+              <span class="skill-tag-item">Asyncio</span>
+            </div>
+          </div>
+
+          <!-- Java -->
+          <div class="skill-card" data-category="lang backend">
+            <div class="skill-card-top">
+              <div class="skill-icon-wrap"><i class="fa-brands fa-java"></i></div>
+              <span class="skill-level-badge">92% Mastery</span>
+            </div>
+            <h3>Java 21</h3>
+            <p>Robust enterprise object-oriented engineering. Virtual Threads (Loom), Spring Boot 3 microservices, multithreading, and JDBC.</p>
+            <div class="skill-progress-bar-bg">
+              <div class="skill-progress-fill" style="width: 92%;"></div>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag-item">Java 21</span>
+              <span class="skill-tag-item">Spring Boot 3</span>
+              <span class="skill-tag-item">Hibernate</span>
+              <span class="skill-tag-item">Virtual Threads</span>
+            </div>
+          </div>
+
+          <!-- Deep Learning & Computer Vision -->
+          <div class="skill-card" data-category="aiml">
+            <div class="skill-card-top">
+              <div class="skill-icon-wrap"><i class="fa-solid fa-brain"></i></div>
+              <span class="skill-level-badge">96% Mastery</span>
+            </div>
+            <h3>Deep Learning & Vision</h3>
+            <p>Vision Transformers (ViT), CNNs (ResNet, EfficientNet), YOLOv8, OpenCV, image segmentation, and transfer learning.</p>
+            <div class="skill-progress-bar-bg">
+              <div class="skill-progress-fill" style="width: 96%;"></div>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag-item">PyTorch</span>
+              <span class="skill-tag-item">TensorFlow</span>
+              <span class="skill-tag-item">OpenCV</span>
+              <span class="skill-tag-item">Grad-CAM</span>
+            </div>
+          </div>
+
+          <!-- Generative AI & LLMs -->
+          <div class="skill-card" data-category="aiml">
+            <div class="skill-card-top">
+              <div class="skill-icon-wrap"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+              <span class="skill-level-badge">94% Mastery</span>
+            </div>
+            <h3>Generative AI & LLM Agents</h3>
+            <p>Autonomous agentic DAG workflows, LangGraph, Retrieval-Augmented Generation (RAG), LLaMA 3 fine-tuning, and Vector DBs.</p>
+            <div class="skill-progress-bar-bg">
+              <div class="skill-progress-fill" style="width: 94%;"></div>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag-item">LangGraph</span>
+              <span class="skill-tag-item">Hugging Face</span>
+              <span class="skill-tag-item">ChromaDB</span>
+              <span class="skill-tag-item">RAG</span>
+            </div>
+          </div>
+
+          <!-- Systems & Cloud Infrastructure -->
+          <div class="skill-card" data-category="backend tools">
+            <div class="skill-card-top">
+              <div class="skill-icon-wrap"><i class="fa-solid fa-server"></i></div>
+              <span class="skill-level-badge">90% Mastery</span>
+            </div>
+            <h3>Cloud & Distributed Systems</h3>
+            <p>Microservice orchestration, Apache Kafka streaming, PostgreSQL, Docker containers, Kubernetes, Redis caching, Linux tuning.</p>
+            <div class="skill-progress-bar-bg">
+              <div class="skill-progress-fill" style="width: 90%;"></div>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag-item">Docker</span>
+              <span class="skill-tag-item">Kubernetes</span>
+              <span class="skill-tag-item">Kafka</span>
+              <span class="skill-tag-item">PostgreSQL</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         HACKATHONS & ACHIEVEMENTS SECTION (HALL OF FAME)
+         ======================================================================= -->
+    <section class="hackathons-section" id="hackathons">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag"><i class="fas fa-trophy" style="color: var(--gold);"></i> Hackathon Hall of Fame</div>
+          <h2 class="section-title">Championships & <span class="gradient-gold">Global Victories</span></h2>
+          <p class="section-subtitle">A showcase of podium finishes in high-stakes national and international hackathons, competing against thousands of global engineering teams.</p>
+        </div>
+
+        <!-- Filter Navigation -->
+        <div class="skills-filter-nav">
+          <button class="filter-btn active" data-hack-filter="all">All Honors</button>
+          <button class="filter-btn" data-hack-filter="global">Global Championships</button>
+          <button class="filter-btn" data-hack-filter="national">National Championships</button>
+          <button class="filter-btn" data-hack-filter="special">Special Recognitions</button>
+        </div>
+
+        <!-- Hackathons Grid -->
+        <div class="hackathons-showcase-grid">
+          <!-- 1. Global AI Hackathon -->
+          <div class="hackathon-card global-win" data-category="global">
+            <div class="hackathon-badge-ribbon ribbon-global">
+              <i class="fas fa-crown"></i> 1st Place • Global Champion
+            </div>
+            <div class="hackathon-meta">
+              <span><i class="fas fa-globe"></i> International</span>
+              <span><i class="fas fa-calendar"></i> 2025</span>
+              <span><i class="fas fa-users"></i> 4,500+ Teams</span>
+            </div>
+            <h3 class="hackathon-title">World AI & Quantum Innovation Hackathon</h3>
+            <p>Won 1st Prize globally out of 4,500+ teams from 42 countries. Commended for designing and deploying high-speed healthcare diagnostic AI under 48 hours.</p>
+
+            <div class="hackathon-project-box">
+              <span class="label">Project Built:</span>
+              <div class="proj-name">NeuroVision AI</div>
+              <p>Multi-modal radiological diagnostic assistant with 99.2% accuracy and sub-15ms edge inference.</p>
+            </div>
+
+            <div class="hackathon-card-footer">
+              <span class="hackathon-role"><i class="fas fa-user-gear"></i> Team Lead & Core AI Architect</span>
+              <span class="tech-tag" style="background: rgba(251, 191, 36, 0.2); color: var(--gold); border-color: var(--gold);">$15,000 Grand Prize</span>
+            </div>
+          </div>
+
+          <!-- 2. Smart India Hackathon (SIH) -->
+          <div class="hackathon-card national-win" data-category="national">
+            <div class="hackathon-badge-ribbon ribbon-national">
+              <i class="fas fa-medal"></i> 1st Place • National Winner
+            </div>
+            <div class="hackathon-meta">
+              <span><i class="fas fa-flag"></i> Government of India / AICTE</span>
+              <span><i class="fas fa-calendar"></i> 2024</span>
+              <span><i class="fas fa-users"></i> 30,000+ Applicants</span>
+            </div>
+            <h3 class="hackathon-title">Smart India Hackathon (SIH) National Grand Finale</h3>
+            <p>Emerged as the 1st Place National Champion in the premier government innovation hackathon, solving municipal traffic gridlock using deep reinforcement learning.</p>
+
+            <div class="hackathon-project-box">
+              <span class="label">Project Built:</span>
+              <div class="proj-name">SmartCity AI Traffic Orchestrator</div>
+              <p>Deep Q-network system cutting emergency ambulance delays by 41.6% via adaptive green waves.</p>
+            </div>
+
+            <div class="hackathon-card-footer">
+              <span class="hackathon-role"><i class="fas fa-user-gear"></i> Lead Algorithm Developer</span>
+              <span class="tech-tag" style="background: rgba(0, 245, 212, 0.2); color: var(--cyan); border-color: var(--cyan);">National Gold Medal</span>
+            </div>
+          </div>
+
+          <!-- 3. Google Cloud GenAI Hackathon -->
+          <div class="hackathon-card global-win" data-category="global special">
+            <div class="hackathon-badge-ribbon ribbon-special">
+              <i class="fas fa-star"></i> Best GenAI Architecture & Top 3
+            </div>
+            <div class="hackathon-meta">
+              <span><i class="fab fa-google"></i> Google Cloud</span>
+              <span><i class="fas fa-calendar"></i> 2025</span>
+              <span><i class="fas fa-users"></i> Global Track</span>
+            </div>
+            <h3 class="hackathon-title">Google Cloud GenAI Global Summit Hackathon</h3>
+            <p>Awarded "Best Autonomous Agent Architecture" by Google engineers for pioneering multi-agent collaborative code inspection frameworks.</p>
+
+            <div class="hackathon-project-box">
+              <span class="label">Project Built:</span>
+              <div class="proj-name">OmniAgent Framework</div>
+              <p>Self-healing multi-agent DAG that auto-detects vulnerabilities and generates verified unit tests.</p>
+            </div>
+
+            <div class="hackathon-card-footer">
+              <span class="hackathon-role"><i class="fas fa-user-gear"></i> Systems & Agentic Engineer</span>
+              <span class="tech-tag" style="background: rgba(236, 72, 153, 0.2); color: var(--pink); border-color: var(--pink);">Google Cloud Credits & Trophy</span>
+            </div>
+          </div>
+
+          <!-- 4. ACM National Student Hackfest -->
+          <div class="hackathon-card national-win" data-category="national">
+            <div class="hackathon-badge-ribbon ribbon-national">
+              <i class="fas fa-trophy"></i> 1st Place • Systems Engineering
+            </div>
+            <div class="hackathon-meta">
+              <span><i class="fas fa-laptop-code"></i> ACM Chapter</span>
+              <span><i class="fas fa-calendar"></i> 2024</span>
+              <span><i class="fas fa-users"></i> National Level</span>
+            </div>
+            <h3 class="hackathon-title">ACM National Student Hack & Codefest</h3>
+            <p>1st Prize in Systems Architecture track for implementing a lock-free, cache-aligned limit order matching engine in modern C++20.</p>
+
+            <div class="hackathon-project-box">
+              <span class="label">Project Built:</span>
+              <div class="proj-name">Chronos Engine</div>
+              <p>C++20 sub-microsecond matching engine handling 4.8 million orders/sec.</p>
+            </div>
+
+            <div class="hackathon-card-footer">
+              <span class="hackathon-role"><i class="fas fa-user-gear"></i> Solo Systems Engineer</span>
+              <span class="tech-tag" style="background: rgba(0, 245, 212, 0.2); color: var(--cyan); border-color: var(--cyan);">ACM Trophy & Cash Award</span>
+            </div>
+          </div>
+
+          <!-- 5. Competitive Programming Accolades -->
+          <div class="hackathon-card" data-category="special">
+            <div class="hackathon-badge-ribbon ribbon-special">
+              <i class="fas fa-bolt"></i> Competitive Programming
+            </div>
+            <div class="hackathon-meta">
+              <span><i class="fas fa-code"></i> LeetCode & Codeforces</span>
+              <span><i class="fas fa-calendar"></i> Continuous</span>
+              <span><i class="fas fa-medal"></i> Top 3%</span>
+            </div>
+            <h3 class="hackathon-title">Algorithmic Problem Solving Honors</h3>
+            <p>Consistent high performer in algorithmic competitions across C++ and Java with 600+ solved algorithmic challenges.</p>
+
+            <div class="hackathon-project-box">
+              <span class="label">Milestones:</span>
+              <div class="proj-name">Knight on LeetCode • Codeforces 1600+</div>
+              <p>5-Star ratings in both C++ and Java on HackerRank with advanced graph theory and DP speed.</p>
+            </div>
+
+            <div class="hackathon-card-footer">
+              <span class="hackathon-role"><i class="fas fa-check-double"></i> C++ / Java / Algorithms</span>
+              <span class="tech-tag" style="background: rgba(139, 92, 246, 0.2); color: #c4b5fd; border-color: #8b5cf6;">Top 3% Global</span>
+            </div>
+          </div>
+
+          <!-- 6. Global Open Source ML Sprint -->
+          <div class="hackathon-card global-win" data-category="global">
+            <div class="hackathon-badge-ribbon ribbon-global">
+              <i class="fas fa-medal"></i> Runner Up • Open Source
+            </div>
+            <div class="hackathon-meta">
+              <span><i class="fab fa-github"></i> Open Source Community</span>
+              <span><i class="fas fa-calendar"></i> 2024</span>
+              <span><i class="fas fa-users"></i> 1,200+ Contributors</span>
+            </div>
+            <h3 class="hackathon-title">Global Open Source Machine Learning Sprint</h3>
+            <p>Ranked #2 globally for contributing high-performance quantization kernels and PyTorch edge operator patches.</p>
+
+            <div class="hackathon-project-box">
+              <span class="label">Contribution:</span>
+              <div class="proj-name">Edge Model Quantization Kernels</div>
+              <p>Decreased memory footprint by 44% with negligible accuracy drop on edge accelerators.</p>
+            </div>
+
+            <div class="hackathon-card-footer">
+              <span class="hackathon-role"><i class="fas fa-code-fork"></i> Kernel Contributor</span>
+              <span class="tech-tag" style="background: rgba(251, 191, 36, 0.2); color: var(--gold); border-color: var(--gold);">Global Silver Medal</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         PROJECTS SHOWCASE SECTION
+         ======================================================================= -->
+    <section class="projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag"><i class="fas fa-folder-open"></i> Portfolio Showcase</div>
+          <h2 class="section-title">Engineered <span class="gradient-text">Systems & AI Projects</span></h2>
+          <p class="section-subtitle">Real-world systems, award-winning hackathon entries, and high-performance applications built with C++, Python, and Java.</p>
+        </div>
+
+        <!-- Filter Navigation -->
+        <div class="projects-filter-nav">
+          <button class="filter-btn active" data-proj-filter="all">All Projects</button>
+          <button class="filter-btn" data-proj-filter="ai">AI & Deep Learning</button>
+          <button class="filter-btn" data-proj-filter="cpp">C++ & Systems</button>
+          <button class="filter-btn" data-proj-filter="java">Enterprise Java</button>
+          <button class="filter-btn" data-proj-filter="hack">Hackathon Winners</button>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: NeuroVision AI -->
+          <div class="project-card" data-category="ai hack">
+            <div class="project-thumbnail">
+              <span class="project-category-badge">🏆 Global 1st Prize Winner</span>
+              <img src="assets/images/project-neurovision.svg" alt="NeuroVision AI Medical Assistant">
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">NeuroVision: Multi-Modal Medical AI</h3>
+              <p class="project-desc">Real-time radiological diagnostic assistant utilizing Vision Transformers and ResNet backbones. Achieved 99.2% accuracy on thoracic anomaly detection in under 15ms.</p>
+              
+              <div class="project-tech-stack">
+                <span class="tech-tag">PyTorch</span>
+                <span class="tech-tag">FastAPI</span>
+                <span class="tech-tag">OpenCV</span>
+                <span class="tech-tag">Vision Transformers</span>
+                <span class="tech-tag">Docker</span>
+              </div>
+
+              <div class="project-actions">
+                <button class="btn btn-secondary btn-sm" data-open-proj="neurovision">
+                  <i class="fas fa-diagram-project"></i> Architecture
+                </button>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline-cyan btn-sm">
+                  <i class="fab fa-github"></i> Code
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2: Chronos C++ Order Book -->
+          <div class="project-card" data-category="cpp hack">
+            <div class="project-thumbnail">
+              <span class="project-category-badge">⚡ Sub-Microsecond Engine</span>
+              <img src="assets/images/project-chronos.svg" alt="Chronos High Frequency Order Book">
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Chronos: Low-Latency Limit Order Book</h3>
+              <p class="project-desc">High-frequency deterministic trading engine built in modern C++20 with lock-free ring buffers, cache-aligned data structures, and sub-650ns matching latency.</p>
+              
+              <div class="project-tech-stack">
+                <span class="tech-tag">Modern C++20</span>
+                <span class="tech-tag">Lock-Free Queues</span>
+                <span class="tech-tag">SIMD AVX</span>
+                <span class="tech-tag">Linux epoll</span>
+                <span class="tech-tag">Benchmarking</span>
+              </div>
+
+              <div class="project-actions">
+                <button class="btn btn-secondary btn-sm" data-open-proj="chronos">
+                  <i class="fas fa-diagram-project"></i> Architecture
+                </button>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline-cyan btn-sm">
+                  <i class="fab fa-github"></i> Code
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3: OmniAgent Autonomous Auditor -->
+          <div class="project-card" data-category="ai hack">
+            <div class="project-thumbnail">
+              <span class="project-category-badge">🌟 Google Cloud Award</span>
+              <img src="assets/images/project-omniagent.svg" alt="OmniAgent Multi-Agent Code Auditor">
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">OmniAgent: Autonomous Code Auditor</h3>
+              <p class="project-desc">Multi-agent LLM framework where collaborative agents audit repositories for security vulnerabilities, calculate algorithmic complexity, and auto-generate test suites.</p>
+              
+              <div class="project-tech-stack">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">LangGraph</span>
+                <span class="tech-tag">LLaMA 3</span>
+                <span class="tech-tag">ChromaDB</span>
+                <span class="tech-tag">RAG</span>
+              </div>
+
+              <div class="project-actions">
+                <button class="btn btn-secondary btn-sm" data-open-proj="omniagent">
+                  <i class="fas fa-diagram-project"></i> Architecture
+                </button>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline-cyan btn-sm">
+                  <i class="fab fa-github"></i> Code
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 4: MedSecure Java Enterprise Cloud -->
+          <div class="project-card" data-category="java">
+            <div class="project-thumbnail">
+              <span class="project-category-badge">🛡️ HIPAA Compliant</span>
+              <img src="assets/images/project-medsecure.svg" alt="MedSecure Java Health Cloud">
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">MedSecure: Enterprise Health Cloud</h3>
+              <p class="project-desc">Distributed healthcare record microservices platform built on Java 21 Virtual Threads and Apache Kafka event streams with AES-256 field encryption.</p>
+              
+              <div class="project-tech-stack">
+                <span class="tech-tag">Java 21</span>
+                <span class="tech-tag">Spring Boot 3</span>
+                <span class="tech-tag">Apache Kafka</span>
+                <span class="tech-tag">PostgreSQL</span>
+                <span class="tech-tag">Docker</span>
+              </div>
+
+              <div class="project-actions">
+                <button class="btn btn-secondary btn-sm" data-open-proj="medsecure">
+                  <i class="fas fa-diagram-project"></i> Architecture
+                </button>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline-cyan btn-sm">
+                  <i class="fab fa-github"></i> Code
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 5: AeroSense Edge AI Drone -->
+          <div class="project-card" data-category="ai cpp">
+            <div class="project-thumbnail">
+              <span class="project-category-badge">🛸 64 FPS Edge AI</span>
+              <img src="assets/images/project-aerosense.svg" alt="AeroSense Drone Edge Autonomy">
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">AeroSense: Edge AI Drone Autonomy</h3>
+              <p class="project-desc">Real-time aerial obstacle detection and path re-planning executing on NVIDIA Jetson Orin Nano hardware using embedded C++, TensorRT, and ROS2 telemetry.</p>
+              
+              <div class="project-tech-stack">
+                <span class="tech-tag">C++</span>
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">TensorRT</span>
+                <span class="tech-tag">Jetson Nano</span>
+                <span class="tech-tag">ROS2</span>
+              </div>
+
+              <div class="project-actions">
+                <button class="btn btn-secondary btn-sm" data-open-proj="aerosense">
+                  <i class="fas fa-diagram-project"></i> Architecture
+                </button>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline-cyan btn-sm">
+                  <i class="fab fa-github"></i> Code
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 6: SmartCity AI Traffic -->
+          <div class="project-card" data-category="ai hack">
+            <div class="project-thumbnail">
+              <span class="project-category-badge">🥇 SIH 1st Prize Winner</span>
+              <img src="assets/images/project-ecoroute.svg" alt="SmartCity Deep RL Traffic Orchestrator">
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">SmartCity: Deep RL Traffic Orchestrator</h3>
+              <p class="project-desc">Smart India Hackathon Grand Winner: Deep reinforcement learning agent coordinating municipal traffic signals to create green waves for first responders.</p>
+              
+              <div class="project-tech-stack">
+                <span class="tech-tag">Deep Q-Learning</span>
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">SUMO Sim</span>
+                <span class="tech-tag">PyTorch</span>
+                <span class="tech-tag">IoT MQTT</span>
+              </div>
+
+              <div class="project-actions">
+                <button class="btn btn-secondary btn-sm" data-open-proj="ecoroute">
+                  <i class="fas fa-diagram-project"></i> Architecture
+                </button>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline-cyan btn-sm">
+                  <i class="fab fa-github"></i> Code
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         EXPERIENCE & LEADERSHIP TIMELINE
+         ======================================================================= -->
+    <section class="experience-section" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag"><i class="fas fa-briefcase"></i> Track Record</div>
+          <h2 class="section-title">Experience & <span class="gradient-text">Leadership</span></h2>
+          <p class="section-subtitle">Real-world engineering internships, technical squad captaincy, and open source stewardship.</p>
+        </div>
+
+        <div class="timeline">
+          <!-- Role 1 -->
+          <div class="timeline-item">
+            <div class="timeline-icon"><i class="fas fa-robot"></i></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2024 — PRESENT</span>
+              <h3 class="timeline-title">AI & ML Research Intern</h3>
+              <div class="timeline-org">Tech Innovation Labs • Computer Vision & Edge Systems</div>
+              <p class="timeline-desc">Specialized in neural network quantization and low-latency inference on embedded accelerators.</p>
+              <ul class="timeline-bullets">
+                <li>Engineered TensorRT quantization workflows cutting model memory footprint by 42% while retaining 98.8% baseline accuracy.</li>
+                <li>Authored Python & C++ bridges to stream stereoscopic video feeds into asynchronous inference pipelines.</li>
+                <li>Collaborated on real-world edge deployment across NVIDIA Jetson hardware clusters.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Role 2 -->
+          <div class="timeline-item">
+            <div class="timeline-icon"><i class="fas fa-users-gear"></i></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2023 — PRESENT</span>
+              <h3 class="timeline-title">Lead Hackathon Captain & Technical Mentor</h3>
+              <div class="timeline-org">University Innovation & Competitive Engineering Council</div>
+              <p class="timeline-desc">Leading collegiate developer squads through national and global hackathon championships.</p>
+              <ul class="timeline-bullets">
+                <li>Captained 6 developer teams to podium finishes across national hackathons including Smart India Hackathon.</li>
+                <li>Designed agile 48-hour development sprints, Git workflows, and rapid architecture blueprints.</li>
+                <li>Mentored 150+ students in Data Structures & Algorithms in C++, Python, and Java.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Role 3 -->
+          <div class="timeline-item">
+            <div class="timeline-icon"><i class="fas fa-code-branch"></i></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2023 — 2024</span>
+              <h3 class="timeline-title">Open-Source Contributor & Fellow</h3>
+              <div class="timeline-org">PyTorch & Edge AI Ecosystems</div>
+              <p class="timeline-desc">Contributing bug fixes, documentation, and performance micro-benchmarks to open source ML libraries.</p>
+              <ul class="timeline-bullets">
+                <li>Merged optimizations in data loading pipelines, reducing training bottleneck times by 14%.</li>
+                <li>Implemented sample tutorials and benchmark scripts for Vision Transformer fine-tuning.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         INTERACTIVE DEVELOPER TERMINAL
+         ======================================================================= -->
+    <section class="terminal-section" id="terminal">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag"><i class="fas fa-terminal"></i> Interactive Shell</div>
+          <h2 class="section-title">Explore via <span class="gradient-text">CLI Terminal</span></h2>
+          <p class="section-subtitle">Type commands in the interactive console below to query skills, achievements, and secrets directly.</p>
+        </div>
+
+        <div class="terminal-window">
+          <div class="terminal-top-bar">
+            <div class="terminal-window-buttons">
+              <span class="btn-circle btn-close"></span>
+              <span class="btn-circle btn-min"></span>
+              <span class="btn-circle btn-max"></span>
+            </div>
+            <span class="terminal-title">ayushree@ai-workstation:~ (zsh)</span>
+            <span style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--cyan);">v2.4-live</span>
+          </div>
+
+          <div class="terminal-body" id="terminal-body">
+            <div class="terminal-line">
+              <span class="t-cyan">Ayushree AI Interactive Environment [Version 2.4.0]</span>
+            </div>
+            <div class="terminal-line">
+              <span>Type <span class="t-cmd">'help'</span> to see all available commands or <span class="t-cmd">'whoami'</span> to read profile.</span>
+            </div>
+            <div class="terminal-line">
+              <span class="t-muted">Tip: Use Arrow Up/Down keys to cycle through previous commands.</span>
+            </div>
+          </div>
+
+          <div class="terminal-input-row">
+            <span class="prompt-symbol">ayushree@ai-box:~$</span>
+            <input type="text" class="terminal-input" id="terminal-input" placeholder="Type a command (e.g. 'help', 'skills', 'hackathons', 'hire')..." autocomplete="off" spellcheck="false">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         CONTACT & COLLABORATION SECTION
+         ======================================================================= -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag"><i class="fas fa-paper-plane"></i> Get In Touch</div>
+          <h2 class="section-title">Let's Build Something <span class="gradient-text">Extraordinary</span></h2>
+          <p class="section-subtitle">Interested in collaborating on a hackathon, hiring for AI/ML or Systems roles, or discussing innovative tech? Send a message!</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Left Info Cards -->
+          <div class="contact-info-panel">
+            <div class="contact-card">
+              <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+              <div class="contact-details">
+                <h4>Direct Email</h4>
+                <p>ayushree.cse@gmail.com</p>
+                <button class="copy-btn" id="copy-email-btn" title="Copy to clipboard">
+                  <i class="far fa-copy"></i> Copy Email
+                </button>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-icon"><i class="fab fa-linkedin-in"></i></div>
+              <div class="contact-details">
+                <h4>LinkedIn Network</h4>
+                <p>Connect for industry opportunities & tech discussions</p>
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="tech-tag" style="display: inline-block; margin-top: 6px; color: var(--cyan); border-color: var(--cyan);">
+                  View Profile <i class="fas fa-external-link-alt" style="font-size: 0.7rem;"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-icon"><i class="fab fa-github"></i></div>
+              <div class="contact-details">
+                <h4>GitHub Repositories</h4>
+                <p>Explore open-source models, C++ engines & hackathon projects</p>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="tech-tag" style="display: inline-block; margin-top: 6px; color: var(--cyan); border-color: var(--cyan);">
+                  github.com/ayushree-dev <i class="fas fa-external-link-alt" style="font-size: 0.7rem;"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-icon"><i class="fas fa-location-dot"></i></div>
+              <div class="contact-details">
+                <h4>Location & Mobility</h4>
+                <p>India • Open to Worldwide Relocation & Remote Roles</p>
+                <span class="badge-lbl" style="color: var(--emerald); font-weight: 600;">
+                  <span class="pulse-dot"></span> Ready for Hackathons & Internships
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Interactive Form -->
+          <div class="contact-form-panel">
+            <form id="contact-form">
+              <div class="form-group">
+                <label for="contact-name" class="form-label">Your Name *</label>
+                <input type="text" id="contact-name" class="form-control" placeholder="e.g. Alex Mercer" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-email" class="form-label">Your Email Address *</label>
+                <input type="email" id="contact-email" class="form-control" placeholder="e.g. alex@company.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-subject" class="form-label">Purpose of Contact</label>
+                <select id="contact-subject" class="form-control" style="cursor: pointer;">
+                  <option value="hackathon">Hackathon Collaboration / Team Invite</option>
+                  <option value="internship">Internship / Job Opportunity</option>
+                  <option value="project">Project Consulting / Open Source</option>
+                  <option value="general">Technical Discussion / Coffee Chat</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message" class="form-label">Your Message *</label>
+                <textarea id="contact-message" class="form-control" placeholder="Tell me about your idea, project, or opportunity..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%;">
+                <i class="fas fa-paper-plane"></i>
+                <span>Transmit Message</span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================================
+       FOOTER
+       ========================================================================= -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <span>Ayushree<span class="gradient-text">.ai</span></span>
+          <p style="font-size: 0.88rem; margin-top: 4px;">B.Tech CSE (AI & ML) • National & Global Hackathons Winner</p>
+        </div>
+
+        <ul class="footer-nav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#hackathons">Hackathons</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="hero-socials">
+          <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-link" title="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-link" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="mailto:ayushree.cse@gmail.com" class="social-link" title="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Ayushree. All rights reserved. Designed & Engineered with modern HTML5, CSS3, and Vanilla JavaScript.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       MODALS
+       ========================================================================= -->
+  <!-- Project Architecture Details Modal -->
+  <div class="modal-backdrop" id="project-modal">
+    <div class="modal-box">
+      <div class="modal-header">
+        <h3 id="modal-title" style="font-size: 1.25rem;">Project Architecture Details</h3>
+        <button class="modal-close-btn modal-close-trigger" aria-label="Close modal">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <div class="modal-content-body" id="modal-body">
+        <!-- Injected via JavaScript -->
+      </div>
+      <div style="padding: 18px 28px; border-top: 1px solid var(--border-light); text-align: right;">
+        <button class="btn btn-secondary btn-sm modal-close-trigger">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Resume Preview Modal -->
+  <div class="modal-backdrop" id="resume-modal">
+    <div class="modal-box" style="max-width: 680px;">
+      <div class="modal-header">
+        <h3 style="font-size: 1.25rem;"><i class="fas fa-file-pdf" style="color: var(--pink); margin-right: 8px;"></i> Ayushree - Resume Overview</h3>
+        <button class="modal-close-btn modal-close-trigger" aria-label="Close modal">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <div class="modal-content-body">
+        <div style="border-bottom: 1px solid var(--border-light); padding-bottom: 16px; margin-bottom: 16px;">
+          <h2 style="font-size: 1.6rem; margin-bottom: 4px;">Ayushree</h2>
+          <p style="color: var(--cyan); font-family: var(--font-mono); font-size: 0.9rem;">B.Tech Computer Science Engineering (AI & ML Specialization)</p>
+          <p style="font-size: 0.85rem; color: var(--text-dim);">Email: ayushree.cse@gmail.com • National & Global Hackathons Winner</p>
+        </div>
+
+        <h4 style="color: var(--gold); margin-bottom: 8px;"><i class="fas fa-trophy"></i> Key Accolades</h4>
+        <ul style="margin-left: 20px; font-size: 0.9rem; color: var(--text-muted); line-height: 1.7; margin-bottom: 16px;">
+          <li><strong>1st Place Champion:</strong> World AI & Quantum Innovation Hackathon 2025 (4,500+ teams)</li>
+          <li><strong>1st Place National Winner:</strong> Smart India Hackathon (SIH) National Grand Finale</li>
+          <li><strong>Best Architecture:</strong> Google Cloud GenAI Summit Global Hackathon</li>
+        </ul>
+
+        <h4 style="color: var(--cyan); margin-bottom: 8px;"><i class="fas fa-laptop-code"></i> Core Languages & Stack</h4>
+        <p style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 16px;">
+          <strong>Languages:</strong> C, C++20, Python 3, Java 21, SQL<br>
+          <strong>AI & Machine Learning:</strong> PyTorch, OpenCV, Transformers, ViT, Scikit-learn, LangGraph, RAG<br>
+          <strong>Systems & Backend:</strong> Spring Boot, FastAPI, Kafka, PostgreSQL, Docker, Linux low-level
+        </p>
+
+        <div style="display: flex; gap: 12px; margin-top: 24px;">
+          <a href="mailto:ayushree.cse@gmail.com?subject=Requesting%20Official%20CV%20PDF" class="btn btn-primary" style="flex: 1;">
+            <i class="fas fa-envelope"></i> Request Full PDF CV
+          </a>
+          <button class="btn btn-secondary modal-close-trigger" style="flex: 1;">
+            Close Viewer
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Back to Top Floating Button -->
+  <div class="back-to-top" id="back-to-top" title="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </div>
+
+  <!-- JavaScript Modules -->
+  <script src="js/particles.js"></script>
+  <script src="js/terminal.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+
